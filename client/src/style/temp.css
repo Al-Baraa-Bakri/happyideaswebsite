@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800&family=Joan&family=Noto+Kufi+Arabic:wght@100;200;300;400;500;600;700;800&family=Noto+Naskh+Arabic:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;700&family=Poppins:wght@200;300;400;500;600;700;800&family=Work+Sans:wght@300;400&display=swap");
+
+* {
+  font-family: "Noto Naskh Arabic", serif;
+}
+
+.App {
+  padding: 1.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.form-check {
+  font-size: 1.3rem;
+}
+
+.post {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+
+.post .left-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 1.5rem;
+}
+
+.post .avatar {
+  width: 85px;
+  height: 85px;
+  background-color: #eaeaea;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+@media (min-width: 500px) {
+  .post .avatar {
+    border-radius: 0;
+    width: 20vw;
+  }
+}
+
+.post .right-col {
+  flex: 1;
+}
+
+.list-item:not(:last-child) {
+  border-bottom: none;
+}
